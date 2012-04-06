@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="plonetheme.toutpt">
+
+
+  <genericsetup:registerProfile
+      name="default"
+      title="plonetheme.toutpt"
+      directory="profiles/default"
+      description='Extension profile for the "My theme" Plone theme.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <plone:static directory="static" type="theme" 
+    name="plonetheme.toutpt" />
+
+</configure>

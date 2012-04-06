@@ -1,0 +1,55 @@
+@import "variables.less";
+@import "mixins.less";
+@import "layouts.less";
+@import "grid.less";
+@import "responsive.less";
+
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+#portal-globalnav{
+    margin-left: 20px;
+}
+
+/* ============================== */
+/* ! Layout for large desktop version   */
+/* ============================== */
+
+
+@media (min-width: 1200px) {
+
+#portal-globalnav{
+    margin-left: 30px;
+}
+}
+
+
+
+/* ============================== */
+/* ! Layout for tablet  version   */
+/* ============================== */
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+}
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+#portal-globalnav{
+    margin-left: 0;
+}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
