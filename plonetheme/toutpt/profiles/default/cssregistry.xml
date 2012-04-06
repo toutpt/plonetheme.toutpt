@@ -1,0 +1,6 @@
+<object name="portal_css" meta_type="Stylesheets Registry">
+
+  <stylesheet id="mobile.css" enabled="False" />
+  <stylesheet id="columns.css" enabled="False" />
+
+</object>
