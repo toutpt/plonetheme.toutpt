@@ -1557,6 +1557,15 @@ h6,
   font-size: 34px;
   font-family: 'Merienda';
 }
+/* REMOVE border bottom on link from sunburst */
+dl.portlet a:link,
+dl.portlet a:visited {
+  border-bottom: none;
+}
+#content .documentDescription {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
 @media (max-width: 480px) {
   
 }
