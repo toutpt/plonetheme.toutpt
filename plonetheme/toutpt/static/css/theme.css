@@ -1551,10 +1551,18 @@ h6,
 #globalnav-wrapper {
   font-family: 'Merienda';
 }
+#portal-logo-wrapper {
+  text-align: center;
+}
+#portal-logo img,
+.portlet img,
+.portlet .portletItem {
+  max-width: 100%;
+}
 #collective-baseline {
   margin-top: 60px;
   margin-left: 50px;
-  font-size: 34px;
+  font-size: 2.2em;
   font-family: 'Merienda';
 }
 /* REMOVE border bottom on link from sunburst */
